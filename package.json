@@ -1,11 +1,11 @@
 {
-  "name": "alt-ui-vue2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ups-lil-ui-vue2",
+  "version": "1.0.0",
+  "private": false,
   "main": "./dist/alt-ui-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name alt-ui-components src/main.js",
+    "build": "vue-cli-service build --target lib --name ups-lil-ui-components src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -43,5 +43,19 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "Lil ui library with customazable inputs, icon loader and modal notification",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altynboy/ups-lil-ui-vue2.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "Altynbek Kungirbayev <a.kungirbaev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Altynboy/ups-lil-ui-vue2/issues"
+  },
+  "homepage": "https://github.com/Altynboy/ups-lil-ui-vue2#readme"
 }
