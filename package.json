@@ -2,7 +2,7 @@
   "name": "ups-lil-ui-vue2",
   "version": "1.0.0",
   "private": false,
-  "main": "./dist/alt-ui-components.common.js",
+  "main": "./dist/ups-lil-ui-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name ups-lil-ui-components src/main.js",
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -20,10 +22,10 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "node-sass": "^9.0.0",
     "sass-loader": "^14.2.1",
     "svg-sprite-loader": "^6.0.11",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.91.0"
   },
   "eslintConfig": {
     "root": true,
