@@ -1,6 +1,6 @@
 {
   "name": "ups-lil-ui-components-vue2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "main": "./dist/ups-lil-ui-components.common.js",
   "scripts": {
@@ -52,7 +52,12 @@
     "url": "git+https://github.com/Altynboy/ups-lil-ui-vue2.git"
   },
   "keywords": [
-    "ui"
+    "ui",
+    "vue2",
+    "components",
+    "inputs",
+    "modal",
+    "icon loader"
   ],
   "author": "Altynbek Kungirbayev <a.kungirbaev@gmail.com>",
   "license": "MIT",

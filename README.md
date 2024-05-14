@@ -64,6 +64,10 @@ List of all inputs components:
 | InputPhoneLogin | Phone number login input component                     |
 | InputTariff     | Tariff input component                                 |
 
+<br>
+
+Usage:
+
 ```js
 <InputIIN v-model="iin"></InputIIN>
 ```
@@ -123,6 +127,8 @@ export default {
 | placeholder | String  |                        | Placeholder text for the input field             |
 | mobile      | Boolean | false                  | Flag to enable mobile-specific input features    |
 
+<br>
+
 | Event Name | Data Type | Description                                                   |
 | ---------- | --------- | ------------------------------------------------------------- |
 | input      | String    | Emits the updated input value whenever the input changes.     |
@@ -152,7 +158,10 @@ export default {
 | alert-text    | String  | "This is an alert" | Text content of the alert                         |
 | wide          | Boolean | false              | Indicates if the alert should be wide             |
 
+<br>
+
 > Use event below to close modal window without store
+> <br>
 
 | Event Name        | Data Type | Description                              |
 | ----------------- | --------- | ---------------------------------------- |
