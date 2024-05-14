@@ -1,5 +1,5 @@
 {
-  "name": "ups-lil-ui-vue2",
+  "name": "ups-lil-ui-components-vue2",
   "version": "1.0.0",
   "private": false,
   "main": "./dist/ups-lil-ui-components.common.js",

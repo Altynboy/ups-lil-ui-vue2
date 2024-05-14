@@ -10,6 +10,7 @@
       :is-clicked="isClicked"
       @update:is-clicked="isClicked = false"
     />
+    <IconBase iconName="close-x"></IconBase>
     <button @click="isClicked = true">Show alert</button>
   </div>
 </template>
@@ -19,6 +20,7 @@ import VueTooltip from "./components/Base/VueTooltip/VueTooltip.vue";
 import CodeInput from "./components/Inputs/CodeInput/CodeInput.vue";
 import InputIIN from "./components/Inputs/InputIIN/InputIIN.vue";
 import DefaultAlert from "./components/Other/DefaultAlert/DefaultAlert.vue";
+import IconBase from "./components/Base/IconBase/IconBase.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     CodeInput,
     InputIIN,
     DefaultAlert,
+    IconBase,
   },
 
   data() {
