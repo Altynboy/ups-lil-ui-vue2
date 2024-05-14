@@ -1,4 +1,4 @@
-# ups-lil-ui-vue2
+# ups-lil-ui-components-vue2
 
 > Lil ui library with customazable inputs, icon loader and modal notification
 
